@@ -6,9 +6,9 @@ function clean_scriptsbbpv($url) {
 	return $urlclean;
 }
 
-add_action('init', 'my_script_enqueuer');
+add_action('init', 'bbpv_script_enqueuer');
 
-function my_script_enqueuer() {
+function bbpv_script_enqueuer() {
 	wp_register_script("bbpv_voter_script", plugins_url('/js/my_voter_script.js', __FILE__), array('jquery'));
 	wp_localize_script('bbpv_voter_script', 'myAjax', array('ajaxurl' => admin_url('admin-ajax.php')));
 	wp_register_style( 'bbpvstyle', plugins_url('/css/bbpv-style.css', __FILE__) );
