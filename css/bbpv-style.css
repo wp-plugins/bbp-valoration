@@ -1,0 +1,54 @@
+/*
+Plugin Name: bbp-valoration
+Plugin URI: 
+Description: Adds voting system, visits and comments to posts on bbpress forums
+Version: 0.1.0
+Author: Eric Zeidan
+Author URI: 
+License: GPL2
+*/
+
+/*  Copyright 2015 Eric Zeidan  (email : k2klettern@gmail.com)
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License, version 2, as 
+    published by the Free Software Foundation.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+.thumbs-up-form {
+  float: left;
+}
+.bbpv_mess {
+  float: left;
+  margin: 5px;
+}
+div#successtext {
+  color: green;
+}
+div#errortext {
+  color: red;
+}
+#thumbsup-img {
+  float:left;
+  margin-top: 5px;
+}
+#totales {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0px 0px 0px 10px;
+  padding: 3px;
+  float: left;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
