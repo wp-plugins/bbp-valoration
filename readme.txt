@@ -1,9 +1,9 @@
 === bbp-valoration ===
 Contributors: k2klettern
-Tags: bbpress, topics, thumbsup, visits, widget, count, replies, forums
+Tags: bbpress, topics, thumbsup, visits, widget, count, replies, forums, likes
 Requires at least: 4.0
-Tested up to: 4.1
-Stable tag: 0.1.0
+Tested up to: 4.3
+Stable tag: 0.1.1
 License: GPLv2 or later
 
 Adds thumbsup, visits and replies count to topics on bbpress, display results on a widget.
@@ -22,7 +22,7 @@ Major features in bbp-valoration include:
 * Display or not the number values
 * Uses Ajax.
 
-PD: This plugin works only with a BBpress forum.
+PD: This plugin works only with a BBpress forum installation.
 
 == Installation ==
 
@@ -36,3 +36,7 @@ Upload the bbp-valoration plugin to your blog, Activate it.
 *Release Date - 09th July, 2015*
 
 * First Release
+
+= 0.1.1 =
+*Added support in Widget for PHP5 due release of WP 4.3
+*Added Languages Serbian and Spanish; Serbian language added thanks to Mr. Ogi Djuraskovic from http://firstsiteguide.com/

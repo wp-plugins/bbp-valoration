@@ -2,10 +2,10 @@
  
 class bbpv_widget extends WP_Widget {
  
-    function bbpv_widget(){
+    function __construct(){
         // Constructor del Widget
         $widget_ops = array('classname' => 'bbpv_widget', 'description' => "Show Topics per votes, visit or replies." );
-        $this->WP_Widget('bbpv_widget', "BBpress Valoration Widget", $widget_ops);
+        parent::__construct('bbpv_widget', "BBpress Valoration Widget", $widget_ops);
     }
  
     function widget($args,$instance){
@@ -69,28 +69,28 @@ class bbpv_widget extends WP_Widget {
          ?>
          <div class="widget-content">
          <p>
-            <label for="<?php echo $this->get_field_id('bbpv_title'); ?>"><?php _e('Add a title for Widget (Can be empty)'); ?></label>
+            <label for="<?php echo $this->get_field_id('bbpv_title'); ?>"><?php _e('Add a title for Widget (Can be empty)','bbpv'); ?></label>
             <input type="text" name="<?php echo $this->get_field_name('bbpv_title'); ?>" id="<?php echo $this->get_field_id('bbpv_title'); ?>" value="<?php if (isset($instance["bbpv_title"]) && esc_attr($instance["bbpv_title"])) echo esc_attr($instance["bbpv_title"]); ?>">
          <p>
-            <label for="<?php echo $this->get_field_id('bbpv_option'); ?>"><?php _e('Select which option to show'); ?></label>
+            <label for="<?php echo $this->get_field_id('bbpv_option'); ?>"><?php _e('Select which option to show','bbpv'); ?></label>
             <select name="<?php echo $this->get_field_name('bbpv_option'); ?>" id="<?php echo $this->get_field_id('bbpv_option'); ?>">
-                <option><?php _e('Select an Option'); ?></option>
-                <option value="1" <?php if (isset($instance["bbpv_option"]) && esc_attr($instance["bbpv_option"])=='1') echo "selected=\"selected\""; ?>><?php _e('per Votes');?></option>
-                <option value="2" <?php if (isset($instance["bbpv_option"]) && esc_attr($instance["bbpv_option"])=='2') echo "selected=\"selected\""; ?>><?php _e('per Visits');?></option>
-                <option value="3" <?php if (isset($instance["bbpv_option"]) && esc_attr($instance["bbpv_option"])=='3') echo "selected=\"selected\""; ?>><?php _e('per Replies');?></option>
+                <option><?php _e('Select an Option','bbpv'); ?></option>
+                <option value="1" <?php if (isset($instance["bbpv_option"]) && esc_attr($instance["bbpv_option"])=='1') echo "selected=\"selected\""; ?>><?php _e('per Votes','bbpv');?></option>
+                <option value="2" <?php if (isset($instance["bbpv_option"]) && esc_attr($instance["bbpv_option"])=='2') echo "selected=\"selected\""; ?>><?php _e('per Visits','bbpv');?></option>
+                <option value="3" <?php if (isset($instance["bbpv_option"]) && esc_attr($instance["bbpv_option"])=='3') echo "selected=\"selected\""; ?>><?php _e('per Replies','bbpv');?></option>
             </select>
          </p>
          <p>
-            <label for="<?php echo $this->get_field_id('bbpv_number'); ?>"><?php _e('Select which option to show'); ?></label>
+            <label for="<?php echo $this->get_field_id('bbpv_number'); ?>"><?php _e('Select which option to show','bbpv'); ?></label>
             <select name="<?php echo $this->get_field_name('bbpv_number'); ?>" id="<?php echo $this->get_field_id('bbpv_number'); ?>">
-                <option><?php _e('Select an Option'); ?></option>
+                <option><?php _e('Select an Option','bbpv'); ?></option>
                 <?php for ($i=1; $i<=10; $i++ ) { ?>
                 <option value="<?php echo $i; ?>" <?php if (isset($instance["bbpv_number"]) && esc_attr($instance["bbpv_number"])==$i) echo "selected=\"selected\""; ?>><?php echo $i; ?></option>
                 <?php } ?>
             </select>
          </p>
          <p> 
-            <label for="<?php echo $this->get_field_id('bbpv_showvalues'); ?>"><?php _e('Check to show the values'); ?></label>
+            <label for="<?php echo $this->get_field_id('bbpv_showvalues'); ?>"><?php _e('Check to show the values','bbpv'); ?></label>
             <input type="checkbox" name="<?php echo $this->get_field_name('bbpv_showvalues'); ?>" id="<?php echo $this->get_field_id('bbpv_showvalues'); ?>" value="1" <?php if (isset($instance["bbpv_showvalues"]) && esc_attr($instance["bbpv_showvalues"])=='1') echo "checked=\"checked\""; ?>>
         </div>
         <?php

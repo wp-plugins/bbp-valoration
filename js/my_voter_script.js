@@ -21,7 +21,6 @@ jQuery(document).ready( function() {
 			            }
 			            else {
 			               jQuery(".bbpv_mess #errortext").show()
-						   console.log("respuesta: "+response.msg)
 			            }
          			}
         		});
