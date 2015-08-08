@@ -35,8 +35,10 @@ Upload the bbp-valoration plugin to your blog, Activate it.
 = 0.1.0 =
 *Release Date - 09th July, 2015*
 
-* First Release
+* First Release *
 
 = 0.1.1 =
-*Added support in Widget for PHP5 due release of WP 4.3
-*Added Languages Serbian and Spanish; Serbian language added thanks to Mr. Ogi Djuraskovic from http://firstsiteguide.com/
+*Release Date - 08th August 2015*
+
+*Added support in Widget for PHP5 due release of WP 4.3*
+*Added Languages Serbian and Spanish; Serbian language added thanks to Mr. Ogi Djuraskovic from http://firstsiteguide.com/*
