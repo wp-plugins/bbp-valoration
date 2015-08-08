@@ -25,19 +25,25 @@ License: GPL2
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+add_action('plugins_loaded', 'bbpv_text');
+
+function bbpv_text() {
+    load_plugin_textdomain('bbpv', false, basename(dirname(__FILE__)) . '/langs');
+}
+
 // Make sure we don't expose any info if called directly
 
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 //requirements check
 
 if(!is_plugin_active('bbpress/bbpress.php')) {
-        echo "<div class=\"error\"> <p>This Plugin needs BBpress to work, pls. install it first and activate.</p></div>";
+        echo "<div class=\"error\"> <p>".__('This Plugin needs BBpress to work, pls. install it first and activate.','bbpv')."</p></div>";
         exit;
 }
 
 
 if ( !function_exists( 'add_action' ) ) {
-	_e('Hi there!  I\'m just a plugin, not much I can do when called directly.');
+	_e('Hi there!  I\'m just a plugin, not much I can do when called directly.','bbpv');
 	exit;
 }
 
