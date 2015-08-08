@@ -3,7 +3,7 @@
 Plugin Name: bbp-valoration
 Plugin URI: http://zeidan.info/bbp-valoration
 Description: Adds thumbsup, visits and replies count to topics on bbpress, display results on a widget.
-Version: 0.1.0
+Version: 0.1.1
 Author: Eric Zeidan
 Author URI: http://zeidan.info/
 License: GPL2
