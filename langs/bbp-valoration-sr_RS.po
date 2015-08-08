@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bbp-valoration\n"
+"POT-Creation-Date: 2015-07-30 18:43+0100\n"
+"PO-Revision-Date: 2015-08-05 09:22+0100\n"
+"Last-Translator: Borisa Djuraskovic <borisad@webhostinghub.com>\n"
+"Language-Team: bbpv <k2klettern@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: bbp-valoration.php:40
+msgid "This Plugin needs BBpress to work, pls. install it first and activate."
+msgstr ""
+"Ovom plugin-u je potreban BBpress da bi radio, molimo instalirajte ga prvo i "
+"aktivirajte"
+
+#: bbp-valoration.php:46
+msgid "Hi there!  I'm just a plugin, not much I can do when called directly."
+msgstr ""
+"Zdravo tamo! Ja sam samo plugin, ne mogu mnogo toga da uradim ako sam "
+"direktno pozvan."
+
+#: functions.php:41
+msgid "Total-Likes:"
+msgstr "Ukupno-”lajkova”:"
+
+#: functions.php:46
+msgid "Thanks for your vote"
+msgstr "Hvala za vaš glas"
+
+#: functions.php:49
+msgid "Your vote could not be added"
+msgstr "Vaš glas nije bilo moguće dodati"
+
+#: functions.php:61
+msgid "Error on visit counts"
+msgstr "Greška kod brojanja poseta"
+
+#: widget.php:72
+msgid "Add a title for Widget (Can be empty)"
+msgstr "Dodajte naslov za vidžet (može biti prazan)"
+
+#: widget.php:75 widget.php:84
+msgid "Select which option to show"
+msgstr "Selektujte koja će opcija biti prikazana"
+
+#: widget.php:77 widget.php:86
+msgid "Select an Option"
+msgstr "Selektujte opciju"
+
+#: widget.php:78
+msgid "per Votes"
+msgstr "za glasove"
+
+#: widget.php:79
+msgid "per Visits"
+msgstr "za posete"
+
+#: widget.php:80
+msgid "per Replies"
+msgstr "za odzive"
+
+#: widget.php:93
+msgid "Check to show the values"
+msgstr "Proverite da bi se prikazale vrednosti"
