@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bbp-valoration\n"
+"POT-Creation-Date: 2015-08-08 11:56+0100\n"
+"PO-Revision-Date: 2015-08-08 12:01+0100\n"
+"Last-Translator: \n"
+"Language-Team: bbpv <k2klettern@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"Language: es_ES\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: bbp-valoration.php:40
+msgid "This Plugin needs BBpress to work, pls. install it first and activate."
+msgstr "Este Plugin necesita BBpress para funcionar, por favor instalelo primero antes de activar."
+
+#: bbp-valoration.php:46
+msgid "Hi there!  I'm just a plugin, not much I can do when called directly."
+msgstr "Hola! Solo soy un plugin, no haces mucho llamándome directamente."
+
+#: functions.php:41
+msgid "Total-Likes:"
+msgstr "Total-Me Gusta:"
+
+#: functions.php:46
+msgid "Thanks for your vote"
+msgstr "Gracias por tu voto"
+
+#: functions.php:49
+msgid "Your vote could not be added"
+msgstr "Tu voto no pudo ser añadido"
+
+#: functions.php:61
+msgid "Error on visit counts"
+msgstr "Error en la cuenta de Visitas"
+
+#: widget.php:72
+msgid "Add a title for Widget (Can be empty)"
+msgstr "Añade un Titulo al Widget (Puede dejarse vacío)"
+
+#: widget.php:75 widget.php:84
+msgid "Select which option to show"
+msgstr "Selecciona cual opción a mostrar"
+
+#: widget.php:77 widget.php:86
+msgid "Select an Option"
+msgstr "Selecciona una Opción"
+
+#: widget.php:78
+msgid "per Votes"
+msgstr "por Votos"
+
+#: widget.php:79
+msgid "per Visits"
+msgstr "por Visitas"
+
+#: widget.php:80
+msgid "per Replies"
+msgstr "por Respuestas"
+
+#: widget.php:93
+msgid "Check to show the values"
+msgstr "Selecciona para mostrar los valores"
